@@ -19,3 +19,5 @@ set visualbell "turn off terminal bell
 
 set laststatus=2 "show the last status line
 set title "show the status line in the terminal title
+
+set wildmode=list:longest "allow shell-like tab autocompletion for paths with :e
