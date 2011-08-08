@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
-ln -sv $(echo `cd ..; pwd`)/.vimrc $HOME
-ln -sv $(echo `cd ..; pwd`)/.vim $HOME
+project_path="$( cd "$( dirname "$0" )" && cd .. && pwd )"
+# echo $project_path
+
+ln -fsv $project_path/.vimrc $HOME
+ln -fsv $project_path/.vim $HOME
