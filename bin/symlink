@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+ln -sv $(echo `cd ..; pwd`)/.vimrc $HOME
+ln -sv $(echo `cd ..; pwd`)/.vim $HOME
