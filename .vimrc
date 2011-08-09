@@ -22,6 +22,10 @@ set title "show the status line in the terminal title
 
 set wildmode=list:longest "allow shell-like tab autocompletion for paths with :e
 
-
 "textmate CMD-T like Fuzzy file support
 map <Leader>t :FuzzyFinderTextMate<Enter>
+
+"strip whitespace when saving the following files
+autocmd BufWritePre *.js :%s/\s\+$//e
+autocmd BufWritePre *.md :%s/\s\+$//e
+autocmd BufWritePre *.rb :%s/\s\+$//e
