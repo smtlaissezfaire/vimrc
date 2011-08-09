@@ -11,6 +11,6 @@ You'll need ruby for the fuzzy file plugin, and a ruby-enabled vim (vim --verbos
 
 FuzzyFile (textmate style CMD-T) support requires a gem:
 
-    ./bin/
+    ./bin/install
 
 Activate FuzzyFile with \t<space><filename>
