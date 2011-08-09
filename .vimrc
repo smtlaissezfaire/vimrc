@@ -22,4 +22,6 @@ set title "show the status line in the terminal title
 
 set wildmode=list:longest "allow shell-like tab autocompletion for paths with :e
 
+
+"textmate CMD-T like Fuzzy file support
 map <Leader>t :FuzzyFinderTextMate<Enter>
