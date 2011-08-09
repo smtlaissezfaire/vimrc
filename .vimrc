@@ -29,3 +29,4 @@ map <Leader>t :FuzzyFinderTextMate<Enter>
 autocmd BufWritePre *.js :%s/\s\+$//e
 autocmd BufWritePre *.md :%s/\s\+$//e
 autocmd BufWritePre *.rb :%s/\s\+$//e
+autocmd BufWritePre *.css :%s/\s\+$//e
