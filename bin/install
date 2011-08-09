@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+gem uninstall fuzzy_file_finder
+gem install fuzzy_file_finder -v=1.0.4
+
