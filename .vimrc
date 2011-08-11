@@ -32,3 +32,4 @@ autocmd BufWritePre *.rb :%s/\s\+$//e
 autocmd BufWritePre *.css :%s/\s\+$//e
 autocmd BufWritePre *.sass :%s/\s\+$//e
 autocmd BufWritePre *.scss :%s/\s\+$//e
+autocmd BufWritePre *.html :%s/\s\+$//e
